@@ -1,0 +1,52 @@
+page-pattern-color-list {
+.header {
+  background: rgb(243, 189, 117);
+}
+
+.toolbar-background {
+    background: radial-gradient(#CDDC39 15%, transparent 16%) 0 0, 
+    radial-gradient(#FFEB3B 15%, transparent 16%) 8px 8px, 
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, 
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color: #f3bd75;
+    background-size: 16px 16px;
+}
+
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {
+    border-style: none;
+}
+
+.header-md::after,
+.tabs-md[tabsPlacement="top"] > .tabbar::after,
+.footer-md::before,
+.tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+  background-image: none !important;
+}
+
+.toolbar-title {
+    color: #ffffff;
+    text-align: left;
+    margin-left: -29px; color: #ffffff;
+}
+
+.itemText{
+    text-align: center;
+    margin-top: 14px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.item_pattern{
+    background: 
+    radial-gradient(#CDDC39 15%, transparent 16%) 0 0, 
+    radial-gradient(#FFEB3B 15%, transparent 16%) 8px 8px, 
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px, 
+    radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    -webkit-box-shadow: inset 0px -17px 16px -19px rgba(69,67,69,1);
+    -moz-box-shadow: inset 0px -17px 16px -19px rgba(69,67,69,1);
+    box-shadow: inset 0px -17px 16px -19px rgba(69,67,69,1);
+    }
+}

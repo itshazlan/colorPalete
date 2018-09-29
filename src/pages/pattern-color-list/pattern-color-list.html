@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu" style=" color: #ffffff;"></ion-icon>
+    </button>
+    <ion-title>Pattern Color List</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+ <ion-list no-lines style="margin: 0;">
+  <ion-item *ngFor="let item of food" [ngStyle]="{'background-color': item.color,'height': '150px'}" class="item_pattern">
+     <div>
+			<img [src]="_DomSanitizationService.bypassSecurityTrustUrl(item.img)" style="width: 56px;margin: auto;display: block;">
+      <div class="itemText">{{item.Name}}</div>
+    </div>
+  </ion-item>
+</ion-list>
+
+</ion-content>
+
+
+

@@ -1,3 +1,236 @@
 page-home {
 
+.header {
+  background: #3dc3c1;
+}
+
+.toolbar-background {
+      background: #3dc3c1;
+}
+
+.toolbar-title-ios {
+    text-align: left;
+    margin-left: -32px;
+}
+
+.toolbar-title-md {
+    margin-left: -20px;
+    text-align: left;
+}
+
+.toolbar-title {
+    color: #ffffff;
+}
+
+ion-label{
+    height: inherit !important;
+}
+
+.list-ios .item-block .item-inner {
+    border-bottom: 1px solid rgba(222, 222, 222, 0);
+}
+
+.list-ios > .item-block:last-child, .list-ios > .item-wrapper:last-child .item-block {
+    border-bottom: none;
+}
+
+.label{
+    padding: 50px 8px 44px 0;
+}
+
+.list{
+     margin: 0;
+}
+
+.list-md .item-block .item-inner {
+    border-bottom: 1px solid rgba(222, 222, 222, 0);
+}
+
+.list-ios > .item-block:first-child {
+    border-top: none;
+}
+
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {
+    border-style: none;
+}
+
+.list .item.item-accordion {
+    line-height: 38px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: 0.09s all linear;
+}
+
+.checkbox-ios .checkbox-icon {
+    float: right;
+}
+
+.checkbox-md {
+    float: right;
+}
+
+.checkbox-ios .checkbox-checked .checkbox-inner {
+    left: 5px;
+    top: 4.5px;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkbox-md .checkbox-checked .checkbox-inner {
+    left: 3.5px;
+    top: 4px;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-width: 2px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.checkbox-ios .checkbox-checked {
+    border-color: rgba(93, 91, 91, 0.48);
+    background-color: rgba(93, 91, 91, 0.48);
+}
+
+.checkbox-md .checkbox-checked {
+    border-color: rgba(93, 91, 91, 0.48);
+    background-color: rgba(93, 91, 91, 0.48);
+}
+
+.checkbox-ios .checkbox-icon {
+    border-radius: 28%;
+}
+
+.checkbox-md .checkbox-icon {
+    border-radius: 28%;
+}
+
+.item.item-ios .checkbox-ios {
+    margin: 8px 2px 8px 2px;
+}
+
+.item.item-md .checkbox-md {
+    margin: 9px 3px 9px 4px;
+}
+
+.checkbox-md .checkbox-icon {
+
+    width: 21px;
+    height: 21px;
+
+}
+
+.itemText{
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+
+.itemfont{
+    font-size: 50px;
+    font-weight: 600;
+    width: 20%;
+    float: left;
+}
+
+.itemtext{
+    width: 74%;
+    margin-top: 27px;
+    //float: right;
+}
+
+.item-ios [item-left], .item-ios [item-start] {
+    margin: -20px 16px 8px 0;
+}
+
+.item-md [item-left], .item-md [item-right], .item-md [item-start], .item-md [item-end] {
+    margin: -16px 8px 9px 0;
+}
+
+.animateEffect{
+    position: relative;
+    -webkit-animation-name: fontexample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: fontexample;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fontexample {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    100%  {background-color:transparent; left:45%; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes fontexample {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    100%  {background-color:transparent; left:45%; top:0px;}
+
+}
+
+.animatetitleEffect{
+    position: relative;
+    -webkit-animation-name: titleexample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: titleexample;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes titleexample {
+    0%   {background-color:transparent; top:0px;}
+    100%  {background-color:transparent; top:40px;}
+}
+
+/* Standard syntax */
+@keyframes titleexample {
+    0%   {background-color:transparent; top:0px;}
+    100%  {background-color:transparent; top:40px;}
+
+}
+
+.animateroweffect{
+    position: relative;
+    -webkit-animation-name: rowexample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: rowexample;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes rowexample {
+    0%   {background-color:transparent; top:0px;}
+    100%  {background-color:transparent; top:25px;}
+}
+
+/* Standard syntax */
+@keyframes rowexample {
+    0%   {background-color:transparent; top:0px;}
+    100%  {background-color:transparent; top:25px;}
+
+}
+
 }

@@ -1,0 +1,54 @@
+page-color-list {
+ .itemText{
+    margin-top: -46px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+ }
+
+h2{
+  color: map-get($colors,primary)
+
+}
+
+ion-icon{
+    color: white;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+[class^="sb-bistro"], [class*="sb-bistro"] {
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+    margin-top: 38px;
+}
+
+.header {
+  background: rgb(243, 189, 117);
+}
+
+
+.toolbar-background {
+      background: rgb(243, 189, 117);
+}
+
+ion-label {
+    height:150px;
+}
+
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {
+    border-style: none;
+}
+
+.header-md::after,
+.tabs-md[tabsPlacement="top"] > .tabbar::after,
+.footer-md::before,
+.tabs-md[tabsPlacement="bottom"] > .tabbar::before {
+  background-image: none !important;
+}
+
+.toolbar-title {
+      color: #ffffff;
+}
+}
